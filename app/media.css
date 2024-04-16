@@ -1,0 +1,195 @@
+/* telefono L */
+@media (min-width:425px), (min-heigth:600px) {
+    /* barra-navegacion */
+    #nav-barra{
+        height: 5rem;
+    }
+    #nav-titulo{
+        font-size: 3rem;
+    }
+    /* formulario */
+    #form-padre{
+        height: 6rem;
+    }
+    #input-tarea{
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+    #button-from{
+        height: 2.5rem;
+    }
+    /* lista */
+    #lista-padre{
+        max-height: 15rem;
+    }
+}
+/* tablet */
+@media (min-width:768px), (min-heigth:1000px) {
+    /* barra-navegacion */
+    #nav-barra{
+        height: 7rem;
+    }
+    #nav-titulo{
+        font-size: 5rem;
+    }
+    /* formulario */
+    #form-padre{
+        height: 10rem;
+        gap: 1rem;
+    }
+    #input-tarea{
+        height: 4.5rem;
+        font-size: 2rem;
+    }
+    #button-from{
+        height: 4.5rem;
+    }
+    #button-logo{
+        height: 3rem;
+    }
+    /* lista */
+    #main-container-lista{
+        padding-top: 2rem;
+    }
+    #lista-padre{
+        max-height: 30rem;
+        font-size: 1.9rem;
+        gap: 1rem;
+    }
+    #button-completar-logo{
+        width: 4rem;
+    }
+    #button-eliminar-logo{
+        width: 4rem;
+    }
+    /* contadores */
+    #contenedor-contadores{
+        padding-top: 2rem;
+        gap: 2rem;
+    }
+    .contador{
+        height: 5rem;
+        padding: 2rem;
+    }
+
+    .descripcion-contador{
+        font-size: 2.3rem;
+    }
+    .numero-contador{
+        font-size: 2.3rem;
+    }
+}
+/* laptop */
+@media (min-width:1024px), (min-heigth:1250px) {
+    /* barra-navegacion */
+    #nav-barra{
+        height: 10rem;
+    }
+    #nav-titulo{
+        font-size: 8rem;
+    }
+    /* formulario */
+    #form-padre{
+        height: 15rem;
+        gap: 2rem;
+    }
+    #input-tarea{
+        height: 6.5rem;
+        font-size: 3rem;
+    }
+    #button-from{
+        height: 6.5rem;
+    }
+    #button-logo{
+        height: 6rem;
+    }
+    /* lista */
+    #main-container-lista{
+        padding-top: 2rem;
+    }
+    #lista-padre{
+        max-height: 40rem;
+        font-size: 2.9rem;
+        gap: 1.5rem;
+    }
+    #button-completar-logo{
+        width: 5rem;
+    }
+    #button-eliminar-logo{
+        width: 5rem;
+    }
+    /* contadores */
+    #contenedor-contadores{
+        padding-top: 2rem;
+        gap: 2rem;
+    }
+    .contador{
+        height: 7rem;
+        padding: 2rem;
+    }
+    .descripcion-contador{
+        font-size: 2.9rem;
+    }
+    .numero-contador{
+        font-size: 2.9rem;
+    }
+}
+/* 4k */
+@media (min-width:2000px){
+    /* barra-navegacion */
+    #nav-barra{
+        height: 15rem;
+    }
+    #nav-titulo{
+        font-size: 13rem;
+    }
+    /* formulario */
+    #form-padre{
+        padding-top: 2rem;
+        height: 20rem;
+        gap: 4rem;
+    }
+    #input-tarea{
+        height: 10.5rem;
+        font-size: 4.5rem;
+    }
+    #button-from{
+        height: 10.5rem;
+    }
+    #button-logo{
+        height: 7rem;
+    }
+    /* lista */
+    #main-container-lista{
+        padding-top: 3rem;
+    }
+    #lista-padre{
+        max-height: 40rem;
+        font-size: 4rem;
+        gap: 2.5rem;
+    }
+    #tarea-pendiente{
+        padding: 3rem;
+    }
+    #button-completar-logo{
+        width: 8rem;
+    }
+    #button-eliminar-logo{
+        width: 8rem;
+    }
+    /* contadores */
+    #contenedor-contadores{
+        padding-top: 5rem;
+        gap: 3rem;
+    }
+    .contador{
+        height: 8rem;
+        padding: 3rem;
+    }
+    .descripcion-contador{
+        font-size: 3.9rem;
+    }
+    .numero-contador{
+        font-size: 3.9rem;
+    }
+}

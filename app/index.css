@@ -1,0 +1,193 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  margin: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: #334155;
+}
+/*Titulo*/
+#nav-barra{
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nav-titulo{
+    color: #f1f5f9;
+    font-size: 2.5rem;
+}
+/*Formulario*/
+#form-padre{
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+#input-tarea{
+    height: 2rem;
+    width: 70%;
+    border-radius: 0.5rem;
+}
+.tarea-lista{
+    border: green solid;
+}
+.desabilitado{
+    opacity: 0.8;
+}
+#button-from{
+    background-color: #38bdf8;
+    height: 2rem;
+    width: 70%;
+    border-radius: 0.5rem;
+}
+
+#button-logo{
+    color: white;
+    height: 2rem;
+}
+#button-from{
+    cursor: pointer;
+}
+/*seccion lista*/
+#main-container-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+#lista-padre{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    max-height: 14rem;
+    gap: 0.5rem;
+    overflow: scroll;
+}
+#lista-padre::-webkit-scrollbar{
+    display: none;
+}
+#lista-hijo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    border: 1px white solid;
+    border-radius: 0.5rem;
+}
+.hijo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    border: 1px white solid;
+    border-radius: 0.5rem;
+}
+.tachado{
+    text-decoration: line-through white 0.2rem;
+    background-color: #4d5969;
+    opacity: 0.5;
+}
+.button-eliminar{
+    background-color: #dc2626;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-right: solid 1px white;
+}
+.button-eliminado{
+    background-color: #dc2626;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-right: solid 1px white;
+}
+#button-eliminar-logo{
+    color: white;
+    width: 2rem;
+}
+.button-eliminar:hover{  
+    background-color: #334155;
+    cursor: pointer;
+}
+.button-eliminar:hover > #button-eliminar-logo{  
+    color: #dc2626;
+    cursor: pointer;
+}
+#tarea-pendiente{
+    padding: 1rem;
+    text-align:justify;
+    color: #f1f5f9;
+}
+.tarea{
+    padding: 1rem;
+    text-align:justify;
+    color: #f1f5f9;
+}
+.button-completar{
+    background-color: #16a34a;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-left: solid 1px white;
+}
+.button-completo{
+    background-color: #16a34a;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-left: solid 1px white;
+}
+#button-completar-logo{
+    color: white;
+    width: 2rem;
+}
+.button-completar:hover{  
+    background-color: #334155;
+    cursor: pointer;
+}
+.button-completar:hover > #button-completar-logo{  
+    color: #16a34a;
+    cursor: pointer;
+}
+/* seccion contadores */
+
+#contenedor-contadores{
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.contador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+}
+#contador-total{
+    background-color: #38bdf8;
+}
+#contador-completa{
+    background-color: #16a34a;
+}
+#contador-incompleta{
+    background-color: #dc2626;
+}
+.descripcion-contador{
+    font-size: 1.2rem;
+    color: white;
+}
+.numero-contador{
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+    color: white;
+}
